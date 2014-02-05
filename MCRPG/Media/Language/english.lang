@@ -1,0 +1,93 @@
+/*--MainMenu--*/
+create_compte*=*Create an account
+connect*=*Connection
+quit*=*Quit the game
+/*-*/
+/*--CreationMenu--*/
+login*=*Login
+mdp*=*Password
+confirm*=*Confirmation
+create_compte*=*Create the account
+back*=*Back
+pb_creation*=*Problem during the creation
+pb_login*=*The login already exist
+pb_mdp*=*The confirmation is not like the password
+/*-*/
+/*--ConnectionMenu--*/
+login*=*Login 
+mdp*=*Password
+connect*=*Connection
+back*=*Back
+suppr*=*Delete the account
+pb_mdp*=*Wrong password for ?-?
+pb_compte*=*Account ?-? does not exist
+/*-*/
+/*--MainConnecteMenu--*/
+dida*=*Tutorial
+play*=*Play
+pieces*=*My pieces
+deco*=*Disconnect
+quit*=*Quit the game
+/*-*/
+/*--MyPiecesMenu--*/
+pion*=*Pawn
+tour*=*Rook
+cavalier*=*Knight
+fou*=*Bishop
+reine*=*Queen
+roi*=*King
+suppr*=*Delete
+back*=*Back
+/*-*/
+/*--Graphique_PieceDetails--*/
+type*=*Type
+lvl*=*Level
+exp*=*Experience
+pv*=*Hp
+str*=*Strength
+int*=*Intelligence
+/*-*/
+/*--SearchGame--*/
+refresh*=*Refresh
+join*=*Join the game
+create*=*Create a game
+back*=*Back
+/*-*/
+/*--Didacticiel--*/
+1*=*Welcome in the tutorial of the game Mad Chess RPG
+2*=*This is where you will learn how to fight during epic battles
+3*=*This game is really close to the one you may know
+4*=*Except that the pieces that you control have attributes
+5*=*This tutorial will show you the basis so you will be able to play
+6*=*Make your pieces evolve and win some others
+7*=*Let's see how is constituted your army
+8*=*Each of your piece have attributes that you are able to see
+9*=*By clicking on it during a game, or by going in the menu "My pieces"
+10*=*You can see on the left the attributes of the pawn placed in 2:2
+11*=*His level show you how powerful this piece can be
+12*=*Near of the image, you are able to see the level of the piece
+13*=*The higher the level is, the stronger the piece is
+14*=*The colour with which is written the level indicate the rarety
+15*=*If the rarety is high, the piece will be basically more powerful
+16*=*The HP indicates the vitality of your pieces
+17*=*You will have to pull them to zero to destroy the piece
+18*=*A green bar also indicates the vitality of the pieces on the board
+19*=*While attacked, it will decrease until being empty
+20*=*The strength represent the amount of HP 
+21*=*That will be remove to the vitality of the enemy
+22*=*The stronger your pieces are, the faster you will kill
+23*=*The pieces of the enemy
+24*=*Intelligence represent the ability to cast magic spells
+25*=*The spells will be more powerful if your pieces have high intelligence
+26*=*Let's see the pieces you have
+27*=*The pawn is the less powerful piece, with low HP
+28*=*And low strength and intelligence
+29*=*But he is the first defence against your opponent
+30*=*The rook is a powerful piece with high resistance
+31*=*That make her a piece of attack
+32*=*Because of her high strength and HP
+33*=*In the contrary, the bishop reprensent the magic power
+34*=*Able of casting powerful spells
+35*=*His intelligence higher than the average, that make him
+36*=*A piece more for magic use
+/*-*/

@@ -1,0 +1,93 @@
+/*--MainMenu--*/
+create_compte*=*Creer un compte
+connect*=*Se connecter
+quit*=*Quitter le jeu
+/*-*/
+/*--CreationMenu--*/
+login*=*Login
+mdp*=*Mot de passe
+confirm*=*Confirmation
+create_compte*=*Creer le compte
+back*=*Retour
+pb_creation*=*Probleme lors de la creation du compte
+pb_login*=*Le login existe deja
+pb_mdp*=*La confirmation ne correspond pas au mot de passe
+/*-*/
+/*--ConnectionMenu--*/
+login*=*Login 
+mdp*=*Mot de passe
+connect*=*Se connecter
+back*=*Retour
+suppr*=*Supprimer le compte
+pb_mdp*=*Mauvais mot de passe pour ?-?
+pb_compte*=*Le compte ?-? n'existe pas
+/*-*/
+/*--MainConnecteMenu--*/
+dida*=*Didactitiel
+play*=*Jouer
+pieces*=*Mes pieces
+deco*=*Se deconnecter
+quit*=*Quitter le jeu
+/*-*/
+/*--MyPiecesMenu--*/
+pion*=*Pion
+tour*=*Tour
+cavalier*=*Cavalier
+fou*=*Fou
+reine*=*Reine
+roi*=*Roi
+suppr*=*Supprimer
+back*=*Retour
+/*-*/
+/*--Graphique_PieceDetails--*/
+type*=*Type
+lvl*=*Niveau
+exp*=*Experience
+pv*=*Pv
+str*=*Force
+int*=*Intelligence
+/*-*/
+/*--SearchGame--*/
+refresh*=*Rafraichir
+join*=*Rejoindre la partie
+create*=*Creer une partie
+back*=*Annuler
+/*-*/
+/*--Didacticiel--*/
+1*=*Bienvenue dans le Didacticiel du jeu Mad Chess RPG
+2*=*C'est ici que vous pourrez apprendre a participer a d'epiques batailles
+3*=*Ce jeu est assez similaire au jeu d'echec habituel
+4*=*A ceci pret que les pieces que vous controlez possedent des attributs
+5*=*Ce tutoriel vous apprendra les bases du jeu pour que vous puissiez combattre
+6*=*Faire evoluer vos pieces et en acquerir de nouvelles
+7*=*Commencons par voir comment est constituee votre armee
+8*=*Chacune de vos piece possede des caracteristique que vous pouvez consulter
+9*=*En cliquant dessus pendant une partie, ou dans le menu "Mes pieces"
+10*=*Vous pouvez voir sur le cote droit les statistiques du pion situe en 2:2
+11*=*Son niveau vous permet d'avoir un apercu des capacites de cette piece
+12*=*A cote de son image vous pouvez voir son niveau
+13*=*Plus son niveau est haut, plus la piece sera puissante
+14*=*La couleur avec laquelle est ecrit le niveau vous montre sa rarete
+15*=*Plus sa rarete est elevee, plus la piece est puissante de base
+16*=*Les points de vie indique la vitalite de la piece
+17*=*Il vous faudra descendre ceux ci a zero pour la detruire
+18*=*Un barre verte apparait ausi en dessous de chaque piece de l'echiquier
+19*=*A chaque attaque, celle ci descendra jusqu'a etre totalement vide
+20*=*La force de la piece represente la quantite de point de vie
+21*=*Qui sera retire a chacune des attaques de la piece
+22*=*Plus votre piece sera puissante, plus vite vous detruirez
+23*=*Les pieces adverses
+24*=*L'intelligence represente la capacite de la piece a lancer des sorts
+25*=*Plus votre piece a d'intelligence, plus fort seront les sort que vous lancez
+26*=*Passont en revue les pieces que vous possedez
+27*=*Le Pion est une piece faible, au point de vie peu eleve
+28*=*Dote d'une force et d'une intelligence peu eleve
+29*=*Il constitue neanmoins le premier rempart face aux pieces adverses
+30*=*La tour constitue un piece à la puissance et a la resistance accrue
+31*=*Ce qui fait d'elle une piece d'attaque par excellence
+32*=*Grace a ses hauts points de vie et son attaque
+33*=*Le fou quant à lui represente une force magique de choix
+34*=*Capable de lancer des sorts d'une puissance incroyable
+35*=*Son intelligence au dessus de la moyenne en fait une piece
+36*=*Plus oriente vers la magie
+/*-*/
