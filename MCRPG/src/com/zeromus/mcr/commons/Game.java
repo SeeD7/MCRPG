@@ -2,6 +2,8 @@ package com.zeromus.mcr.commons;
 
 import java.util.ArrayList;
 
+import com.zeromus.mcr.commons.pieces.Piece;
+
 
 public class Game {
 	

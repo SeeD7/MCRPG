@@ -107,7 +107,7 @@ public class MainConnecteMenu extends MCR_Container{
 			parent.showContener(new MyPiecesMenu(parent));
 		}
 		else if(arg0.getSource()==l_deco){
-			parent.setConnecté(null);
+			parent.setConnected(null);
 			parent.showContener(new MainMenu(parent));
 		}
 		else if(arg0.getSource()==l_quit){

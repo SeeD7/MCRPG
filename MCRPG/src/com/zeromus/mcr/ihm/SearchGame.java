@@ -14,15 +14,15 @@ import java.util.HashMap;
 import javax.swing.JLabel;
 import javax.swing.SwingConstants;
 
-import com.zeromus.mcr.commons.Cavalier;
 import com.zeromus.mcr.commons.Compte;
-import com.zeromus.mcr.commons.Fou;
 import com.zeromus.mcr.commons.Game;
-import com.zeromus.mcr.commons.Piece;
-import com.zeromus.mcr.commons.Pion;
-import com.zeromus.mcr.commons.Reine;
-import com.zeromus.mcr.commons.Roi;
-import com.zeromus.mcr.commons.Tour;
+import com.zeromus.mcr.commons.pieces.Cavalier;
+import com.zeromus.mcr.commons.pieces.Fou;
+import com.zeromus.mcr.commons.pieces.Piece;
+import com.zeromus.mcr.commons.pieces.Pion;
+import com.zeromus.mcr.commons.pieces.Reine;
+import com.zeromus.mcr.commons.pieces.Roi;
+import com.zeromus.mcr.commons.pieces.Tour;
 import com.zeromus.mcr.graphique.Graphique_ListGames;
 import com.zeromus.mcr.graphique.Graphique_PieceGame;
 

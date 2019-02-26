@@ -9,14 +9,14 @@ import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import com.zeromus.mcr.commons.Cavalier;
 import com.zeromus.mcr.commons.Compte;
-import com.zeromus.mcr.commons.Fou;
-import com.zeromus.mcr.commons.Piece;
-import com.zeromus.mcr.commons.Pion;
-import com.zeromus.mcr.commons.Reine;
-import com.zeromus.mcr.commons.Roi;
-import com.zeromus.mcr.commons.Tour;
+import com.zeromus.mcr.commons.pieces.Cavalier;
+import com.zeromus.mcr.commons.pieces.Fou;
+import com.zeromus.mcr.commons.pieces.Piece;
+import com.zeromus.mcr.commons.pieces.Pion;
+import com.zeromus.mcr.commons.pieces.Reine;
+import com.zeromus.mcr.commons.pieces.Roi;
+import com.zeromus.mcr.commons.pieces.Tour;
 
 /**
  * @author KamiSama
@@ -30,10 +30,10 @@ public class BDD_M {
 
     
     public final static BDD_M getInstance() {
-         //Le "Double-Checked Singleton"/"Singleton doublement vérifié" permet d'éviter un appel coà»teux à  synchronized, 
+         //Le "Double-Checked Singleton"/"Singleton doublement verifie" permet d'eviter un appel couteux synchronized, 
          //une fois que l'instanciation est faite.
          if (BDD_M.Singleton == null) {
-            // Le mot-clé synchronized sur ce bloc empàªche toute instanciation multiple màªme par différents "threads".
+            // Le mot-cle synchronized sur ce bloc empeche toute instanciation multiple meme par differents "threads".
             // Il est TRES important.
             synchronized(BDD_M.class) {
               if (BDD_M.Singleton == null) {
@@ -45,7 +45,7 @@ public class BDD_M {
      }
 
     BDD_M(){
-        //Cette partie permet la création de la connexion à  la base de donnée
+    	//Cette partie permet la creation de la connexion a la base de donnee
         try {
             Class.forName("org.sqlite.JDBC");
             con = DriverManager.getConnection("jdbc:sqlite:mcrpg.sql");
@@ -110,7 +110,7 @@ public class BDD_M {
         return false;
     }
     
-  //Remplis le tableau de piéces du joueur passé en paramètre
+  //Remplis le tableau de pieces du joueur passe en parametre
     public ArrayList<Piece> getPieces(Compte Joueur){
     	ArrayList<Piece> my_pieces = new ArrayList<Piece>();
     	try {
@@ -136,7 +136,7 @@ public class BDD_M {
     	return my_pieces;
     }
     
-    //Remplis le tableau de piéces du joueur passé en paramètre
+    //Remplis le tableau de pieces du joueur passe en parametre
     public ArrayList<Piece> getPiecesByType(Compte Joueur, String type){
     	ArrayList<Piece> my_pieces = new ArrayList<Piece>();
     	try {

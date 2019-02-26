@@ -1,4 +1,6 @@
-package com.zeromus.mcr.commons;
+package com.zeromus.mcr.commons.pieces;
+
+import com.zeromus.mcr.commons.Plateau;
 
 public class Tour extends Piece{
 

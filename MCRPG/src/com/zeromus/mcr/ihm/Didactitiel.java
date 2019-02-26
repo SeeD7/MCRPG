@@ -19,11 +19,11 @@ import javax.swing.ImageIcon;
 import javax.swing.JLabel;
 import javax.swing.SwingConstants;
 
-import com.zeromus.mcr.commons.Fou;
-import com.zeromus.mcr.commons.Piece;
-import com.zeromus.mcr.commons.Pion;
 import com.zeromus.mcr.commons.Plateau;
-import com.zeromus.mcr.commons.Tour;
+import com.zeromus.mcr.commons.pieces.Fou;
+import com.zeromus.mcr.commons.pieces.Piece;
+import com.zeromus.mcr.commons.pieces.Pion;
+import com.zeromus.mcr.commons.pieces.Tour;
 import com.zeromus.mcr.component.ImageBlinkingLabel;
 import com.zeromus.mcr.component.TypewriterLabel;
 import com.zeromus.mcr.graphique.Graphique_Info;

@@ -130,17 +130,17 @@ public class MyPiecesMenu extends MCR_Container{
 			((JLabel)arg0.getSource()).setForeground(c_red);
 			((JLabel)arg0.getSource()).setFont(f_button_over);
 			if(arg0.getSource()==l_pieces[0])
-				pieces.setSelection(bdd_manager.getPiecesByType(parent.getConnecté(),"pion"));
+				pieces.setSelection(bdd_manager.getPiecesByType(parent.getConnected(),"pion"));
 			else if(arg0.getSource()==l_pieces[1])
-				pieces.setSelection(bdd_manager.getPiecesByType(parent.getConnecté(),"tour"));
+				pieces.setSelection(bdd_manager.getPiecesByType(parent.getConnected(),"tour"));
 			else if(arg0.getSource()==l_pieces[2])
-				pieces.setSelection(bdd_manager.getPiecesByType(parent.getConnecté(),"cavalier"));
+				pieces.setSelection(bdd_manager.getPiecesByType(parent.getConnected(),"cavalier"));
 			else if(arg0.getSource()==l_pieces[3])
-				pieces.setSelection(bdd_manager.getPiecesByType(parent.getConnecté(),"fou"));
+				pieces.setSelection(bdd_manager.getPiecesByType(parent.getConnected(),"fou"));
 			else if(arg0.getSource()==l_pieces[4])
-				pieces.setSelection(bdd_manager.getPiecesByType(parent.getConnecté(),"reine"));
+				pieces.setSelection(bdd_manager.getPiecesByType(parent.getConnected(),"reine"));
 			else if(arg0.getSource()==l_pieces[5])
-				pieces.setSelection(bdd_manager.getPiecesByType(parent.getConnecté(),"roi"));
+				pieces.setSelection(bdd_manager.getPiecesByType(parent.getConnected(),"roi"));
 			pieces.repaint();
 		}
 		else if(arg0.getSource()==pieces){

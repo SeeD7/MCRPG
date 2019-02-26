@@ -2,6 +2,14 @@ package com.zeromus.mcr.commons;
 
 import java.util.ArrayList;
 
+import com.zeromus.mcr.commons.pieces.Cavalier;
+import com.zeromus.mcr.commons.pieces.Fou;
+import com.zeromus.mcr.commons.pieces.Piece;
+import com.zeromus.mcr.commons.pieces.Pion;
+import com.zeromus.mcr.commons.pieces.Reine;
+import com.zeromus.mcr.commons.pieces.Roi;
+import com.zeromus.mcr.commons.pieces.Tour;
+
 /**
  * @author KamiSama
  */

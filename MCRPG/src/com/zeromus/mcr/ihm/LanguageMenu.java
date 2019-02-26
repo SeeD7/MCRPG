@@ -53,7 +53,7 @@ public class LanguageMenu extends MCR_Container{
             Logger.getLogger(Runner.class.getName()).log(Level.SEVERE, null, ex);
         }
 		
-		l_nfrench = new JLabel("Français", SwingConstants.CENTER);
+		l_nfrench = new JLabel("Franï¿½ais", SwingConstants.CENTER);
 		l_nfrench.setFont(f_name);
 		l_nfrench.setForeground(c_red);
 		l_nenglish = new JLabel("Anglais", SwingConstants.CENTER);
@@ -159,7 +159,7 @@ public class LanguageMenu extends MCR_Container{
 	public void changeLanguages(){
 		switch(position) {
 		case 0:
-			l_nfrench.setText("Français");
+			l_nfrench.setText("FranÃ§ais");
 			l_nenglish.setText("Anglais");
 			l_french.setBorder(javax.swing.BorderFactory.createLineBorder(c_orange));
 			l_english.setBorder(javax.swing.BorderFactory.createEmptyBorder());

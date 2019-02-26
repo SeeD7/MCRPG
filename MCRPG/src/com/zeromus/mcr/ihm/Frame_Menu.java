@@ -22,7 +22,7 @@ public class Frame_Menu extends JFrame implements KeyListener{
 
 	private static final long serialVersionUID = -2491318572428961996L;
 	private MCR_Container currentContainer;
-	Compte connecté = null;
+	Compte connected = null;
 	LanguageReader language_selector;
 
 	public Frame_Menu() {
@@ -58,12 +58,12 @@ public class Frame_Menu extends JFrame implements KeyListener{
 		this.repaint();
 	}
 	
-	public void setConnecté(Compte connecté){
-		this.connecté=connecté;
+	public void setConnected(Compte connected){
+		this.connected=connected;
 	}
 
-	public Compte getConnecté() {
-		return connecté;
+	public Compte getConnected() {
+		return connected;
 	}
 	
 	public HashMap<String,String> getTextes(String selection) {

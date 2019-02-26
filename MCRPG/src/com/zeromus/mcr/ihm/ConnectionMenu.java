@@ -147,7 +147,7 @@ public class ConnectionMenu extends MCR_Container implements MouseListener{
 				String password = new String(t_password.getPassword());
 				Compte account = bdd_manager.getAccount(t_login.getText());
 				if(account.getPassword().compareTo(password)==0){
-					parent.setConnecté(account);
+					parent.setConnected(account);
 					parent.showContener(new MainConnecteMenu(parent));
 				}
 				else

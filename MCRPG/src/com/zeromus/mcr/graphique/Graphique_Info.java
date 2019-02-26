@@ -8,7 +8,7 @@ import java.awt.Toolkit;
 
 import javax.swing.JComponent;
 
-import com.zeromus.mcr.commons.Piece;
+import com.zeromus.mcr.commons.pieces.Piece;
 import com.zeromus.mcr.ihm.Game_Container;
 
 /**

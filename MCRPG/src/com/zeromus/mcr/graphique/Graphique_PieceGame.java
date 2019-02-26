@@ -15,7 +15,7 @@ import javax.imageio.ImageIO;
 import javax.swing.JComponent;
 
 import com.zeromus.mcr.commons.Game;
-import com.zeromus.mcr.commons.Piece;
+import com.zeromus.mcr.commons.pieces.Piece;
 import com.zeromus.mcr.ihm.MCR_Container;
 
 /**

@@ -148,7 +148,7 @@ public class CreationMenu extends MCR_Container implements MouseListener{
 				Compte create = new Compte(0, t_login.getText(), password, 0);
 				if(bdd_manager.checkLogin(t_login.getText())){
 					if(bdd_manager.createAccount(create)){
-						parent.setConnecté(bdd_manager.getAccount(t_login.getText()));
+						parent.setConnected(bdd_manager.getAccount(t_login.getText()));
 						parent.showContener(new MainMenu(parent));
 					}
 					else

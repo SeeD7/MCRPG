@@ -4,6 +4,8 @@ package com.zeromus.mcr;
 import java.awt.Image;
 import java.io.File;
 import java.io.IOException;
+import java.sql.Connection;
+import java.sql.DriverManager;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -63,7 +65,22 @@ public class Runner {
         }
         System.out.println("Id : "+id+" Chance : "+chance);*/
 		
-		Frame_Menu fenetre = new Frame_Menu();
+		try {
+		      Class.forName("org.postgresql.Driver");
+		      System.out.println("Driver O.K.");
+
+		      String url = "jdbc:postgresql://localhost:5432/MCRPG";
+		      String user = "postgres";
+		      String passwd = "azertyuiop123.";
+
+		      Connection conn = DriverManager.getConnection(url, user, passwd);
+		      System.out.println("Connexion effective !");
+		         
+		    } catch (Exception e) {
+		      e.printStackTrace();
+		    }
+		
+		/*Frame_Menu fenetre = new Frame_Menu();
         //On interdit le redimenssionement
         fenetre.setResizable(false);
         fenetre.setUndecorated(true);
@@ -77,12 +94,12 @@ public class Runner {
             Logger.getLogger(Runner.class.getName()).log(Level.SEVERE, null, ex);
         }
         
-        //On done un titre à notre fenetre
+        //On done un titre a notre fenetre
         fenetre.setTitle("Mad Chess RPG");
     	
         //On indique ce que l'on souhaite faire lorsque l'on clique sur la croix
         fenetre.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        fenetre.setVisible(true);
+        fenetre.setVisible(true);*/
 	}
 
 }
